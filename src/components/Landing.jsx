@@ -57,7 +57,7 @@ const Landing = () => {
       </p>
 
       {/* Placeholder for Intro Video */}
-      <div className="mt-6 p-4 border border-teal-500 rounded-lg text-lg font-semibold bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
+      <div className="mt-6 p-20 h-60 border border-teal-500 rounded-lg text-5xl font-semibold bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
         🚀 Exciting Intro Video Coming Soon!
       </div>
 
