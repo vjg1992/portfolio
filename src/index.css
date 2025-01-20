@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #14b8a6; /* Teal for light mode */
+  --secondary-color: #1e293b; /* Dark gray */
+}
+
+/* Light Mode */
+.light {
+  --bg-color: #f8f9fa;
+  --text-color: #1f2937;
+  --accent-color: #14b8a6;
+}
+
+/* Dark Mode */
+.dark {
+  --bg-color: #111827;
+  --text-color: #e5e7eb;
+  --accent-color: #06b6d4;
+}
+
+/* Apply Transition Effect */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
